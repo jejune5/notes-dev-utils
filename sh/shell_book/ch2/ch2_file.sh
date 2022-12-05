@@ -9,7 +9,7 @@
 # -r file	检测文件是否可读，如果是，则返回 true。	[ -r $file ] 返回 true。
 # -w file	检测文件是否可写，如果是，则返回 true。	[ -w $file ] 返回 true。
 # -x file	检测文件是否可执行，如果是，则返回 true。	[ -x $file ] 返回 true。
-# -s file	检测文件是否为空（文件大小是否大于0），不为空返回 true。	[ -s $file ] 返回 true。
+# -s file	检测文件是否不为空（文件大小是否大于0），不为空返回 true。	[ -s $file ] 返回 true。
 # -e file	检测文件（包括目录）是否存在，如果是，则返回 true。	[ -e $file ] 返回 true。
 
 #file=$0
